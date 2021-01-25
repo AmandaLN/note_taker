@@ -4,7 +4,7 @@ const fs = require("fs");
 module.exports = function(app) {
 
     // console.log("test")
-    fs.readFile(__dirname, "/db/db.json", "utf-8", function (error, data) {
+    fs.readFile("./db/db.json", "utf-8", function (error, data) {
         if (error) {
             return console.log(error);
         }
@@ -13,7 +13,7 @@ module.exports = function(app) {
     
     });
     app.get("/api/notes", function (req, res) {
-        fs.readFile(__dirname, "/db/db.json", "utf-8", function (error, data) {
+        fs.readFile("./db/db.json", "utf-8", function (error, data) {
             if (error) {
                 return console.log(error);
             }
