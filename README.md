@@ -1,8 +1,9 @@
 # Note Taker
 ## Description
-
+This application will allow the user to add/delete notes. Notes will be saved to left side of the screen.
 
 *https://amandaln.github.io/note_taker/
+*https://powerful-fortress-46374.herokuapp.com/
 
 ## Technologies
 HTML
@@ -18,11 +19,11 @@ Express
 Heroku
 
 ## Usage
-![About screenshot](./assets/images/about.png)
+![screenshot](./assets/images/screenshot1.png)
 
-![Portfolio screenshot](./assets/images/updateport.png)
+![screenshot](./assets/images/screenshot2.png)
 
-![Contact screenshot](./assets/images/contact.png)
+
 
 
 ## Maintainer
