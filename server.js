@@ -5,7 +5,7 @@ const fs = require("fs");
 // Sets up the Express App
 const app = express();
 //process.env - property returns an object containing the user environment.
-const PORT = process.env.Port || 0000;
+const PORT = process.env.Port || 3000;
 // Sets up the Express app to handle data parsing
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
