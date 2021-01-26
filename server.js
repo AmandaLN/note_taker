@@ -18,10 +18,9 @@ require("./routes/apiRoutes")(app)
 require("./routes/htmlRoutes")(app)
 
 
-
-       
+    //Listening to port    
 app.listen(PORT, function () {
-    console.log("App listening on http://localhost:" + PORT);
+    console.log("Listening on localhost:" + PORT);
 });
         
     
